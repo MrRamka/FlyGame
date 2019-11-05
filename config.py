@@ -1,0 +1,15 @@
+WIN_WIDTH = 1524
+WIN_HEIGHT = 720
+DISPLAY = (WIN_WIDTH, WIN_HEIGHT)
+FPS = 60
+GAME_TITLE = 'Fly'
+TITLE_FONT_SIZE = 196
+FONT_SIZE = 82
+FONT_FAMILY = 'Showcard Gothic'
+END_GAME_TIME = 2
+START_POSITION = {1: [-100, -100, 1, 2], 2: [WIN_WIDTH / 2, -100, 0, 2], 3: [WIN_WIDTH + 100, -100, -1, 1],
+                  4: [WIN_WIDTH + 100, WIN_HEIGHT / 2, -4, 0], 5: [WIN_WIDTH + 100, WIN_HEIGHT + 100, -2, -3],
+                  6: [WIN_WIDTH / 3, WIN_HEIGHT + 100, 0, -1], 7: [-100, WIN_HEIGHT , 1, -2],
+                  8: [-100, WIN_HEIGHT / 3, 3, 1]}
+AMOUNT_START_POSITION = len(START_POSITION)
+SCORE_FILE = 'score.txt'
